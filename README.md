@@ -27,19 +27,19 @@ The system automatically generates a unique alphanumeric user ID for each regist
 - Email validation
 - Basic frontend with Bootstrap CSS
 - JavaScript form validation
-- Display of unique user ID in the profile section (read-only)
+- User dashboard displaying user information
 
-## Viewing Unique User ID
+## User Dashboard
 
-After logging in, users can view their unique User ID in two places:
-1. On the dashboard
-2. In the profile section as a read-only field
+After logging in, users can access their dashboard, which displays the following information in a table format:
 
-To access the profile section:
-1. Log in to the application
-2. Click on the user menu (usually in the top-right corner)
-3. Select "Profile"
-4. The unique User ID will be displayed as a read-only field in the profile information form
+- Unique User ID
+- Name
+- Email
+- Registration Date
+- Last Update Date
+
+The dashboard provides a clear overview of the user's account information, enhancing the user experience and making it easy for users to verify their details.
 
 ## Technologies Used
 
@@ -47,3 +47,19 @@ To access the profile section:
 - MySQL
 - Bootstrap
 - JavaScript
+
+## Customization
+
+You can customize the appearance of the user dashboard by modifying the `resources/views/dashboard.blade.php` file and the associated CSS styles in `resources/css/custom.css`.
+
+## Security
+
+This implementation ensures that sensitive information like passwords is never displayed on the dashboard. Only non-sensitive user information is shown to enhance security.
+
+## Contributing
+
+If you'd like to contribute to this project, please fork the repository and create a pull request, or open an issue for discussion.
+
+## License
+
+This project is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
