@@ -1,0 +1,20 @@
+.user-info-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.user-info-table th,
+.user-info-table td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #e2e8f0;
+}
+
+.user-info-table th {
+    background-color: #f8fafc;
+    font-weight: 600;
+}
+
+.user-info-table tr:hover {
+    background-color: #f1f5f9;
+}
